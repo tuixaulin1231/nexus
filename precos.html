@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Planos do Nexus</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { width: 1600px; height: 1110px; font-family: "Segoe UI", system-ui, sans-serif; color: #eef1f8;
+    background: radial-gradient(1200px 700px at 15% 0%, #2b1d5c 0%, transparent 60%), radial-gradient(1000px 700px at 100% 100%, #0d3b4f 0%, transparent 55%), #0a0d18;
+    display: flex; flex-direction: column; align-items: center; padding: 56px 70px; }
+  h1 { font-size: 64px; font-weight: 800; letter-spacing: -1px; }
+  h1 span { background: linear-gradient(90deg, #8b7bff, #33d6ff); -webkit-background-clip: text; color: transparent; }
+  .sub { margin-top: 10px; font-size: 24px; color: #aab3c8; }
+  .teste { margin-top: 22px; display: inline-flex; align-items: center; gap: 10px; padding: 10px 22px; border-radius: 999px;
+    background: rgba(51, 214, 255, .1); border: 1px solid rgba(51, 214, 255, .35); color: #9ee9ff; font-size: 20px; font-weight: 600; }
+  .cards { margin-top: 40px; display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 40px; width: 100%; }
+  .card { position: relative; border-radius: 28px; padding: 36px 40px; background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.09); }
+  .card.plus { background: linear-gradient(160deg, rgba(139,123,255,.20), rgba(51,214,255,.08)); border: 1px solid rgba(139,123,255,.8); outline: 1px solid rgba(139,123,255,.8); box-shadow: 0 30px 80px rgba(110,90,255,.25); }
+  .selo { position: absolute; top: -18px; right: 36px; padding: 8px 18px; border-radius: 999px; font-size: 17px; font-weight: 800;
+    background: linear-gradient(90deg, #8b7bff, #33d6ff); color: #0a0d18; letter-spacing: .5px; }
+  .nome { font-size: 40px; font-weight: 800; }
+  .resumo { margin-top: 4px; font-size: 20px; color: #aab3c8; }
+  .precos { margin-top: 24px; display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 12px; }
+  .preco { border-radius: 16px; padding: 14px 10px; text-align: center; background: rgba(0,0,0,.25); border: 1px solid rgba(255,255,255,.07); }
+  .preco.dest { border-color: rgba(51,214,255,.6); background: rgba(51,214,255,.08); }
+  .periodo { font-size: 16px; color: #aab3c8; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; }
+  .valor { margin-top: 6px; font-size: 32px; font-weight: 800; white-space: nowrap; }
+  .valor small { font-size: 22px; font-weight: 600; color: #aab3c8; }
+  .obs { margin-top: 4px; font-size: 17px; color: #7fe3a8; font-weight: 600; min-height: 18px; }
+  ul { margin-top: 26px; list-style: none; display: grid; gap: 11px; }
+  li b { color: #fff; }
+  li { font-size: 19px; line-height: 1.35; display: flex; gap: 12px; align-items: flex-start; }
+  li .ok { color: #7fe3a8; font-weight: 900; }
+  li .nao { color: #6c7489; font-weight: 900; }
+  li.off { color: #6c7489; }
+  .rodape { margin-top: 30px; font-size: 19px; color: #a9b1c4; text-align: center; }
+</style></head>
+<body>
+  <h1>Planos do <span>Nexus</span></h1>
+  <div class="sub">Vídeos completos com IA: roteiro, voz, imagens, edição animada e legenda.</div>
+  <div class="teste">✦ Teste grátis por 3 dias — 1 vídeo por dia</div>
+  <div class="cards">
+    <div class="card">
+      <div class="nome">Pro</div>
+      <div class="resumo">Para quem publica quase todo dia</div>
+      <div class="precos">
+        <div class="preco"><div class="periodo">7 dias</div><div class="valor">R$ 39<small>,90</small></div><div class="obs"></div></div>
+        <div class="preco dest"><div class="periodo">Mensal</div><div class="valor">R$ 120</div><div class="obs"></div></div>
+        <div class="preco"><div class="periodo">Anual</div><div class="valor">R$ 997</div><div class="obs">≈ R$ 83/mês</div></div>
+      </div>
+      <ul>
+        <li><span class="ok">✓</span><span><b>22 vídeos por mês</b>, prontos para postar</span></li>
+        <li><span class="ok">✓</span><span>Roteiro, narração, imagens, edição e legenda <b>feitos pela IA</b></span></li>
+        <li><span class="ok">✓</span><span>Você escolhe a <b>duração do vídeo</b> (de 1 a 30 minutos ou mais)</span></li>
+        <li><span class="ok">✓</span><span>Comece do zero, com <b>seu roteiro pronto</b> ou só monte seu material (áudio + imagens)</span></li>
+        <li><span class="ok">✓</span><span><b>Editor estilo CapCut</b>: timeline, transições, textos e efeitos</span></li>
+        <li><span class="ok">✓</span><span>Animações e transições automáticas <b>sincronizadas com a fala</b></span></li>
+        <li><span class="ok">✓</span><span>Agente de edição com <b>IA de ponta (Opus)</b></span></li>
+        <li><span class="ok">✓</span><span>Plano salvo na sua <b>conta Google</b> e tutorial guiado</span></li>
+        <li class="off"><span class="nao">–</span><span>Gera 1 imagem por vez</span></li>
+        <li class="off"><span class="nao">–</span><span>Sem animação 3D, voz local, acesso pelo celular e 2ª conta</span></li>
+      </ul>
+    </div>
+    <div class="card plus">
+      <div class="selo">MAIS COMPLETO</div>
+      <div class="nome">Plus</div>
+      <div class="resumo">Tudo liberado, sem limites</div>
+      <div class="precos">
+        <div class="preco"><div class="periodo">7 dias</div><div class="valor">R$ 69<small>,90</small></div><div class="obs"></div></div>
+        <div class="preco dest"><div class="periodo">Mensal</div><div class="valor">R$ 200</div><div class="obs"></div></div>
+        <div class="preco"><div class="periodo">Anual</div><div class="valor">R$ 1.697</div><div class="obs">≈ R$ 141/mês</div></div>
+      </div>
+      <ul>
+        <li><span class="ok">✓</span><span><b>Vídeos ilimitados</b>, todos os dias</span></li>
+        <li><span class="ok">✓</span><span>Gera <b>várias imagens ao mesmo tempo</b>: vídeos prontos bem mais rápido</span></li>
+        <li><span class="ok">✓</span><span><b>Animação 3D</b> com personagem, cenários e falas</span></li>
+        <li><span class="ok">✓</span><span><b>Voz local no seu PC</b>: narração sem pagar por minuto (placa NVIDIA)</span></li>
+        <li><span class="ok">✓</span><span>Use <b>pelo celular</b>, de qualquer lugar</span></li>
+        <li><span class="ok">✓</span><span><b>2ª conta do Google Flow</b> gerando junto, em paralelo</span></li>
+        <li><span class="ok">✓</span><span><b>Tudo do Pro</b> incluso: editor, duração, roteiro pronto, IA de edição Opus</span></li>
+        <li><span class="ok">✓</span><span>Prioridade nas novidades e atualizações</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="rodape">A conta de IA e os créditos do Google Flow são do cliente. A licença acompanha a sua conta Google em qualquer PC.</div>
+</body></html>
