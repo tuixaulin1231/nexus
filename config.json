@@ -1,0 +1,34 @@
+{
+  "formato": 1,
+  "versaoMinima": "0.2.0",
+  "ultimaVersao": "0.3.0",
+  "mensagemObrigatoria": "",
+  "servidorLicencas": "https://nexus-licencas.PREENCHER.workers.dev",
+  "checkout": {
+    "parametroEmail": "",
+    "links": {
+      "pro": {
+        "7d": "https://pay.cakto.com.br/PREENCHER_PRO_7D",
+        "mensal": "https://pay.cakto.com.br/PREENCHER_PRO_MENSAL",
+        "anual": "https://pay.cakto.com.br/PREENCHER_PRO_ANUAL"
+      },
+      "plus": {
+        "7d": "https://pay.cakto.com.br/PREENCHER_PLUS_7D",
+        "mensal": "https://pay.cakto.com.br/PREENCHER_PLUS_MENSAL",
+        "anual": "https://pay.cakto.com.br/PREENCHER_PLUS_ANUAL"
+      }
+    }
+  },
+  "precos": {
+    "pro": {
+      "7d": 39.9,
+      "mensal": 120,
+      "anual": 997
+    },
+    "plus": {
+      "7d": 69.9,
+      "mensal": 200,
+      "anual": 1697
+    }
+  }
+}
