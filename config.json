@@ -3,7 +3,7 @@
   "versaoMinima": "0.2.0",
   "ultimaVersao": "0.3.0",
   "mensagemObrigatoria": "",
-  "servidorLicencas": "https://nexus-licencas.PREENCHER.workers.dev",
+  "servidorLicencas": "https://nexus-licencas.nexus-licencas.workers.dev",
   "checkout": {
     "parametroEmail": "",
     "links": {
