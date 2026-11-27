@@ -1,7 +1,7 @@
 {
   "formato": 1,
   "versaoMinima": "0.2.0",
-  "ultimaVersao": "0.4.0",
+  "ultimaVersao": "0.4.1",
   "mensagemObrigatoria": "",
   "servidorLicencas": "https://nexus-licencas.nexus-licencas.workers.dev",
   "checkout": {
