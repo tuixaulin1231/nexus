@@ -1,8 +1,8 @@
 {
   "formato": 1,
-  "versaoMinima": "0.2.0",
+  "versaoMinima": "0.4.1",
   "ultimaVersao": "0.4.1",
-  "mensagemObrigatoria": "",
+  "mensagemObrigatoria": "Atualize para a versão 0.4.1: corrige a montagem da thumbnail e do vídeo final e o tamanho do roteiro na duração escolhida.",
   "servidorLicencas": "https://nexus-licencas.nexus-licencas.workers.dev",
   "checkout": {
     "parametroEmail": "",
